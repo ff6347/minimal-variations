@@ -1,0 +1,16 @@
+{
+  "name": "offset-more-in-center",
+  "version": "1.0.0",
+  "description": "tracking minimal variations using minor semver",
+  "main": "offset_more_in_center.pde",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fabianmoronzirfas/minimal-variations.git"
+  },
+  "author": "Fabian Morón Zirfas <fabian.moron.zirfas@gmail.com> (http://fabianmoronzirfas.me)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fabianmoronzirfas/minimal-variations/issues"
+  },
+  "homepage": "https://github.com/fabianmoronzirfas/minimal-variations#readme"
+}
