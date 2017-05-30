@@ -4,9 +4,9 @@ void setup() {
   float x = 0;
   float y = height/2;
   float alpha = 50;
-  fill(200, alpha);
-  stroke(20, alpha);
-  strokeWeight(1);
+  //fill(200, alpha);
+  //stroke(20, alpha);
+  //strokeWeight(1);
 
   float prevx = x;
   float prevy = y;
@@ -30,5 +30,19 @@ void setup() {
     prevx = x +xoff;
     prevy = y + yoff;
   }
-  saveFrame("out.png");
+}
+
+void draw() {
+}
+
+void keyPressed() {
+  if (key == 's' || key == 's') {
+    String filename = "out-"+ timestamp() +".png";
+    saveFrame(filename);
+    println("Saved \"" + filename+ "\" to disk");
+  }
+}
+
+String timestamp(){
+  return year() +"-" + month() +"-" + day() +"-" + hour() +"-" + minute() +"-"+ second();
 }
