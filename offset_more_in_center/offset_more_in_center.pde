@@ -43,6 +43,6 @@ void keyPressed() {
   }
 }
 
-String timestamp(){
+String timestamp() {
   return year() +"-" + month() +"-" + day() +"-" + hour() +"-" + minute() +"-"+ second();
 }
